@@ -19,6 +19,7 @@
     },
     "homepage": "https://github.com/HenryC-3/rollup-config-demo#readme",
     "devDependencies": {
-        "rollup": "^3.2.3"
+        "rollup": "^3.2.3",
+        "rollup-plugin-terser": "^7.0.2"
     }
 }
