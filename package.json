@@ -6,7 +6,8 @@
     "main": "index.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
-        "dev": "rollup --config rollup.config.js -w"
+        "dev": "rollup --config rollup.config.js -w",
+        "lazy": "rollup index.js -f cjs -dist"
     },
     "repository": {
         "type": "git",
